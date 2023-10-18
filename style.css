@@ -1,0 +1,60 @@
+body {
+    background-image: url(Fotos/youtube-video-gif\ \(3\).gif);
+    background-size: cover;
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 1em;
+    color: black;
+}
+
+.textos {
+    margin-top: 50px;
+}
+  
+.textos p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: black;
+    margin-top: auto;
+    font-family: Arial;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}  
+
+.imagens img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: pink;
+}
+
